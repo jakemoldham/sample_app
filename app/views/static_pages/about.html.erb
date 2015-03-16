@@ -1,5 +1,71 @@
 <% provide(:title, "About") %>
-<h1>About</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jake Oldham  |  Programmer </title>
+  <link rel="stylesheet" href="/about_me.css.scss"> 
+</head>
+  <body>
+  <div> 
+    <div class="navigator">
+      <nav>
+        <h3> ABOUT ME </h3>
+      </nav>
+
+
+    </div>                                                    <!--end nav-->
+      <div class="hero">
+        <%= image_tag "Portrait.png" %>
+        <br>
+        <h1>JACOB OLDHAM</h1>
+        <h3>DEVELOPER | STUDENT</h3>
+      </div>                                                <!--end hero-->
+
+      <div class="drpepper">
+        <h2>DR PEPPER <br> CONSUMPTION </h2>
+        <div class="line"></div>
+        <h5>3-4 CANS <br> PER DAY</h5>
+      </div>                                             <!---end dr pepper-->
+
+      <div class="league">
+        <h2>LEAUGE OF LEGENDS<br> HOURS</h2>
+        <div class="line"></div>
+        <h5>2 - 3 HOURS <br> PER DAY</h5>
+      </div>                        <!--end league-->
+
+      <div class="contact">
+        <div id="header_contact">
+          <h2>CONTACT</h2>
+          <div class="line"></div>
+          <p>Want to work together? Or just drop a line? Just say hi!</p>
+        </div>
+            <!-- <form> -->
+              
+                <div id="one">
+                  <!-- <h6 id="name">NAME</h6> -->
+                  <p><input type="text" id="namebox"placeholder="NAME&hellip;"></p>
+                </div>                          <!--end name-->
+                <div id="two">
+                  <!-- <h6 id="email">EMAIL-ADDRESS</h6> -->
+                  <p><input type="text" id="emailbox" placeholder="EMAIL&hellip;"></p>  
+                </div>                          <!--end email-->
+                <div id="three">    
+                  <!-- <p class="message">MESSAGE</p> -->
+                  <textarea id="message" placeholder="MESSAGE HERE&hellip;"></textarea>
+                  <button type="Submit" class="submit"><p>Submit</p></button>
+                </div>                          <!--end message-->
+            <!-- </form> -->
+        </div>                                <!--end contact-->
+      <footer>
+            <p>&copy; 2015 Jake Oldham.</p>
+      </footer>   
+  </div>                            <!--end body div-->
+  </body>
+</html>
+
+<!-- 
 <p>
   The <a href="http://www.railstutorial.org/"><em>Ruby on Rails
   Tutorial</em></a> is a
@@ -8,4 +74,4 @@
   to teach web development with
   <a href="http://rubyonrails.org/">Ruby on Rails</a>.
   This is the sample application for the tutorial.
-</p>
+</p> -->

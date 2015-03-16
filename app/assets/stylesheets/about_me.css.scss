@@ -1,0 +1,386 @@
+/********************
+
+  Global
+
+*********************/
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h5 {
+  font-family: Proxima Nova;
+  font-size: 21px;
+  text-align: center;
+  color: rgba( 0, 0, 0, 0 );
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+
+
+/********************
+
+  Navigation
+
+*********************/
+
+
+.navigator {
+  float: left;
+  width: 100%;
+  height: 60px;
+  background-color: white;  /*#262627*/
+}
+
+.navigator h3 {
+  font-family: Proxima Nova;
+  font-weight: 100;
+  color: #6f6f6f;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+
+
+
+/********************
+
+  Hero
+
+*********************/
+
+.hero {
+  background-image: url('HeaderBkg.png');
+  background-size: auto 100%;
+  max-width: 100%;
+  height: 450px;
+  padding-top: 150px;
+  
+
+}
+
+.hero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero h1 {
+  font-family: Proxima Nova;
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+
+}
+
+.hero h3 {
+  font-family: Proxima Nova;
+  text-align: center;
+  color: #ff6028;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+
+/********************
+
+  Fast facts: Dr P
+
+*********************/
+
+.drpepper {
+  background-image: url('DPepper-Off.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #ff6028;
+  height: 240px;
+  width: 49.8%;
+  padding: 0;
+  float: left;
+}
+
+.drpepper:hover {
+  background-image: url('DPepper-On.png');
+  background-color: #d95122;
+}
+
+
+.drpepper:hover h2 {
+  color: rgba(255, 255, 255, 0);
+}
+
+
+.drpepper:hover h5 {
+  color: rgba(255, 255, 255, 1);
+  margin-top: -170px;
+}
+
+
+.drpepper h2 {
+  font-family: Proxima Nova;
+  font-size: 21px;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+.line {
+  width: 60px;
+  border-bottom-style: solid;
+  border-bottom-color: #fff;
+  border-bottom-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+
+
+/********************
+
+   Leauge of Legends
+
+*********************/
+
+
+
+
+.league {
+  background-image: url('iMac-Off.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #ff6028;
+  height: 240px;
+  width: 49.8%;
+  padding: 0;
+  float: right;
+}
+
+.league:hover {
+  background-image: url('iMac-On.png');
+  background-color: #d95122;
+}
+
+
+.league:hover h2 {
+  color: rgba(255, 255, 255, 0);
+}
+
+
+.league:hover h5 {
+  color: rgba(255, 255, 255, 1);
+  margin-top: -170px;
+}
+
+
+.league h2 {
+  font-family: Proxima Nova;
+  font-size: 21px;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+.line {
+  width: 60px;
+  border-bottom-style: solid;
+  border-bottom-color: #fff;
+  border-bottom-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+
+
+/********************
+
+   Contact sheet
+
+*********************/
+
+
+
+
+.contact {
+  background-size: auto 100%;
+  background-color: #f0f0f0;
+  height: 650px;
+  width: 100%;
+  padding-top: 70px;
+  float: left;
+
+}
+
+.contact h2 {
+  font-family: Proxima Nova;
+  font-size: 24px;
+  font-weight: 100;
+  color: #5b5b5b;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.contact .line {  
+  border-bottom-color: #6f6f6f;
+  margin-top: -10px;
+}
+
+.contact p {
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-weight: 100;
+  color: #5b5b5b;
+  text-align: center;
+}
+
+.contact h6 {
+  font-family: Proxima Nova;
+  font-size: 21px;
+  font-weight: 100;
+  color: #5b5b5b;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.contact .message {           /**** message ******/
+  font-family: Proxima Nova;
+  font-size: 21px;
+  font-weight: 100;
+  color: #5b5b5b;
+  letter-spacing: 2px;
+  text-align: left;
+  padding-top: 10px;
+  float: right;
+  padding-right: 912px;
+}
+
+#header_contact {
+  width: 100%;
+  height: 130px;
+
+}
+
+                            /****** form ******/
+
+          /***** div one is name, two is email, three is message, spacing in the form *****/
+
+#one {
+  float: left;
+  width: 48%;
+  height: 240px;
+  display: block;
+  
+}
+
+#two {
+  float: right;
+  width: 48%;
+  height: 240px;
+  display: block;
+}
+
+
+#three {
+  float: left;
+  width: 100%;
+  display: block;
+  margin-top: -50px;
+}
+
+
+
+
+
+
+
+#name {                       /**** name ******/
+  float: right;
+  padding-right: 275px;
+  padding-left: 30%;
+}
+
+
+
+#namebox {                  /**** name text box ******/
+  width: 335px;
+  height: 60px;
+  float: right;
+  margin-top: -30px;
+  font-size: 21px;
+}
+
+#email {                       /**** email ******/
+  float: left;
+  padding-right: 30%;
+}
+
+
+#emailbox {               /**** email text box ******/
+  width: 335px;
+  height: 60px;
+  float: left;
+  font-size: 21px;
+  margin-top: -30px;
+}
+
+
+#message {                /*** message text box ***/
+  width: 720px;
+  height: 120px;
+  font-size: 21px;
+  float: right;
+  margin-right: 210px;
+}
+
+                    /*********** Submit button ***********/
+
+
+
+.submit {
+  float: right;
+  margin-top: 30px;
+  margin-right: 294px;
+  border-style: none;
+  width: 180px;
+  height: 60px;
+  background-color: #ff6028;
+  box-shadow: none;
+}
+
+.submit p {
+  color: #fff;
+  text-align: center;
+}
+
+/********************
+
+      Footer
+
+*********************/
+
+
+footer {
+  font-size: 16px;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: #ccc;
+}
