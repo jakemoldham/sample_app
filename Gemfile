@@ -2,9 +2,12 @@ source 'https://rubygems.org'
 ruby '2.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
+gem 'rails',  '4.2.0'
 gem 'bcrypt', '3.1.7'
-gem 'bootstrap-sass', '3.2.0.0'
+gem 'faker',  '1.4.2'
+gem 'will_paginate',           '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+gem 'bootstrap-sass',          '3.2.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
